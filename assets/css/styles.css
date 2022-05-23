@@ -65,7 +65,7 @@ body {
   padding: 5px 30px;
 }
 .navbar-default {
-  background-color: #ffffff;
+  background-color: #4D8F91;
   border-color: #cccccc;
 }
 .navbar-default .navbar-nav > li > a {
@@ -250,7 +250,8 @@ a:hover {
 }
 
 #head .title {
-  font-family: Alice, Georgia, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #dddddd;
   font-size: 49px;
   font-size: 3.0625rem;
 }
@@ -263,14 +264,14 @@ a:hover {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7C7C7C;
+  color: #dddddd;
   margin: 5px 0 0;
 }
 #head .tagline b {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #5E5E5E;
+  color: #4D8F91;
 }
 .home #head {
   padding: 90px 0;
@@ -374,6 +375,7 @@ img {
 .featured {
   font-size: 13px;
   font-size: 0.8125rem;
+  text-align: center;
 }
 .featured h3 {
   font-weight: bold;
@@ -384,6 +386,7 @@ img {
   line-height: 1.4em;
   vertical-align: middle;
   margin: 0 0 25px 0;
+  color: #4D8F91;
 }
 /* Section - Recent works */
 .thumbnails {
