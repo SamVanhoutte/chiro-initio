@@ -1,3 +1,13 @@
+/*
+Forest green: #228B22
+Dark brown: #654321
+Bright orange: #FF6600
+Hex codes are a shorthand way of specifying colors in web development and graphic design. They are six-digit
+
+
+
+*/
+
 html {
   font-size: 100%;
 }
@@ -5,7 +15,7 @@ body {
   font-size: 15px;
   font-size: 0.9375rem;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
-  color: #666666;
+  color: #654321;
   padding: 0;
 }
 .topspace {
@@ -65,11 +75,11 @@ body {
   padding: 5px 30px;
 }
 .navbar-default {
-  background-color: #4D8F91;
+  background-color: #228B22;
   border-color: #cccccc;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #333333;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
@@ -79,21 +89,21 @@ body {
   color: #000000;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a {
-  color: #333333;
+  color: #FFFFFF;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a:hover {
   background-color: #eeeeee;
   color: #000000;
 }
 .navbar-default .navbar-toggle {
-  border-color: #666666;
+  border-color: #654321;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #ffffff;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #333333;
+  background-color: #FFFFFF;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -124,11 +134,11 @@ body {
   color: #f392b4;
 }
 .nav-side > li > a:hover {
-  color: #bd1550;
+  color: #228B22;
   background: none;
 }
 .nav-side > li.active > a {
-  color: #bd1550;
+  color: #228B22;
 }
 /*********************************************************************
 
@@ -165,7 +175,7 @@ h6,
 .h6 {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #333333;
+  color: #FF6600;
 }
 h1 {
   font-size: 40px;
@@ -188,7 +198,7 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #bd1550;
+  color: #228B22;
 }
 a:hover {
   color: #e93675;
@@ -251,14 +261,14 @@ a:hover {
 
 #head .title {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #ffffff;
-  text-shadow: 3px 3px #4D8F91;
+  color: #FFFFFF;
+  text-shadow: 3px 3px #654321;
   font-size: 49px;
   font-size: 3.0625rem;
 }
 #head .title a {
   text-decoration: none;
-  color: #333333;
+  color: #FF6600;
 }
 #head .tagline {
   display: block;
@@ -272,7 +282,7 @@ a:hover {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #4D8F91;
+  color: #228B22;
   background-color: #FFFFFF;
 }
 .home #head {
@@ -325,7 +335,7 @@ img {
 }
 .btn-primary {
   color: #fff;
-  background-color: #bd1550;
+  background-color: #228B22;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -344,8 +354,8 @@ img {
 .btn-action:focus,
 .btn-action:active,
 .btn-action.active {
-  color: #bd1550;
-  border-color: #bd1550;
+  color: #228B22;
+  border-color: #228B22;
 }
 .btn-lg {
   padding: 15px 60px;
@@ -388,7 +398,7 @@ img {
   line-height: 1.4em;
   vertical-align: middle;
   margin: 0 0 25px 0;
-  color: #4D8F91;
+  color: #228B22;
 }
 /* Section - Recent works */
 .thumbnails {
@@ -479,7 +489,7 @@ img {
   font-size: 0.75rem;
   text-transform: uppercase;
   text-shadow: 0 1px 0px #780d33;
-  background: #bd1550;
+  background: #228B22;
   color: white;
 }
 .thumbnail img {
@@ -511,7 +521,7 @@ img {
   background: none;
 }
 .pagination > li.active > a {
-  color: #333333;
+  color: #FF6600;
   background: none;
 }
 .pagination > li.active > a:hover {
@@ -540,7 +550,7 @@ img {
 }
 .section-title a,
 .entry-title a {
-  color: #333333;
+  color: #FF6600;
 }
 .section-title span,
 .entry-title span {
@@ -597,7 +607,7 @@ img {
   font-family: Georgia, serif;
   font-style: italic;
   font-weight: bold;
-  color: #666666;
+  color: #654321;
   text-decoration: none;
 }
 .meta-nav:hover,
@@ -730,7 +740,7 @@ footer.entry-meta .meta-in {
   color: #333333;
 }
 #comments .comment-meta a:hover {
-  color: #bd1550;
+  color: #228B22;
 }
 #comments .comment-meta .author {
   margin: 0 20px 0 0;
@@ -740,7 +750,7 @@ footer.entry-meta .meta-in {
   margin: 0 20px 0 0;
 }
 #comments .comment-meta .date a {
-  color: #666666;
+  color: #654321;
 }
 #comments .comment-meta .reply {
   float: right;
@@ -838,7 +848,7 @@ footer.entry-meta .meta-in {
    padding: 0px 5px 20px 5px;
    cursor: pointer;
    font-weight: bold;
-   color: #666666;
+   color: #654321;
    &:hover, &:focus {
       color: #004488;
    }
