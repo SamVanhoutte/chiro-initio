@@ -9,6 +9,9 @@
 	
 	<!-- Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat?styles=17404' rel='stylesheet'>
+	<link href="https://fonts.cdnfonts.com/css/lemon-tuesday" rel="stylesheet">
 	
 	{{ $styles := resources.Get "css/styles.css" }}
   {{ $css := $styles | resources.Minify | resources.Fingerprint "sha512"  }}

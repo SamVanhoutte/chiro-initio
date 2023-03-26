@@ -1,11 +1,8 @@
 /*
-Forest green: #228B22
+Forest green: #304521
 Dark brown: #654321
-Bright orange: #FF6600
+Bright orange: #798545
 Hex codes are a shorthand way of specifying colors in web development and graphic design. They are six-digit
-
-
-
 */
 
 html {
@@ -14,7 +11,7 @@ html {
 body {
   font-size: 15px;
   font-size: 0.9375rem;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #654321;
   padding: 0;
 }
@@ -75,8 +72,9 @@ body {
   padding: 5px 30px;
 }
 .navbar-default {
-  background-color: #228B22;
+  background-color: #304521;
   border-color: #cccccc;
+  font-family: 'Lemon Tuesday', sans-serif;
 }
 .navbar-default .navbar-nav > li > a {
   color: #FFFFFF;
@@ -114,6 +112,7 @@ body {
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: #ffffff;
   color: #000000;
+  font-family: 'Lemon Tuesday', sans-serif;
 }
 /****************************************************************************************
 
@@ -134,11 +133,11 @@ body {
   color: #f392b4;
 }
 .nav-side > li > a:hover {
-  color: #228B22;
+  color: #304521;
   background: none;
 }
 .nav-side > li.active > a {
-  color: #228B22;
+  color: #304521;
 }
 /*********************************************************************
 
@@ -173,9 +172,9 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #FF6600;
+  color: #798545;
 }
 h1 {
   font-size: 40px;
@@ -198,7 +197,7 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #228B22;
+  color: #304521;
 }
 a:hover {
   color: #e93675;
@@ -260,7 +259,7 @@ a:hover {
 }
 
 #head .title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Lemon Tuesday', sans-serif;
   color: #FFFFFF;
   text-shadow: 3px 3px #654321;
   font-size: 49px;
@@ -268,7 +267,7 @@ a:hover {
 }
 #head .title a {
   text-decoration: none;
-  color: #FF6600;
+  color: #798545;
 }
 #head .tagline {
   display: block;
@@ -282,7 +281,7 @@ a:hover {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #228B22;
+  color: #304521;
   background-color: #FFFFFF;
 }
 .home #head {
@@ -335,7 +334,7 @@ img {
 }
 .btn-primary {
   color: #fff;
-  background-color: #228B22;
+  background-color: #304521;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -354,8 +353,8 @@ img {
 .btn-action:focus,
 .btn-action:active,
 .btn-action.active {
-  color: #228B22;
-  border-color: #228B22;
+  color: #304521;
+  border-color: #304521;
 }
 .btn-lg {
   padding: 15px 60px;
@@ -398,7 +397,7 @@ img {
   line-height: 1.4em;
   vertical-align: middle;
   margin: 0 0 25px 0;
-  color: #228B22;
+  color: #304521;
 }
 /* Section - Recent works */
 .thumbnails {
@@ -489,7 +488,7 @@ img {
   font-size: 0.75rem;
   text-transform: uppercase;
   text-shadow: 0 1px 0px #780d33;
-  background: #228B22;
+  background: #304521;
   color: white;
 }
 .thumbnail img {
@@ -521,7 +520,7 @@ img {
   background: none;
 }
 .pagination > li.active > a {
-  color: #FF6600;
+  color: #798545;
   background: none;
 }
 .pagination > li.active > a:hover {
@@ -550,7 +549,7 @@ img {
 }
 .section-title a,
 .entry-title a {
-  color: #FF6600;
+  color: #798545;
 }
 .section-title span,
 .entry-title span {
@@ -740,7 +739,7 @@ footer.entry-meta .meta-in {
   color: #333333;
 }
 #comments .comment-meta a:hover {
-  color: #228B22;
+  color: #304521;
 }
 #comments .comment-meta .author {
   margin: 0 20px 0 0;
@@ -788,7 +787,7 @@ footer.entry-meta .meta-in {
 
 **********************************************************************/
 #footer {
-  background: #232323;
+  background: #E7EDEA;
   padding: 30px 0 0 0;
   font-size: 12px;
   color: #999;
@@ -807,7 +806,7 @@ footer.entry-meta .meta-in {
   margin: 0 0 20px;
 }
 #underfooter {
-  background: #191919;
+  background: #304521;
   padding: 15px 0;
   color: #777;
   font-size: 12px;
